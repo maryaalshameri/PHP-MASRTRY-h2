@@ -6,7 +6,7 @@ namespace MiniStore\Modules\Orders;
 use MiniStore\Modules\Core\Traits\DiscountTrait;
 use MiniStore\Modules\Core\Traits\LogTrait;
 use MiniStore\Modules\Core\Traits\TaxTrait;
-use MiniStore\Modules\Payments\PaymentGateway;
+use MiniStore\Modules\Core\Contracts\PaymentGateway;
 use MiniStore\Modules\Products\Product;
 use MiniStore\Modules\Users\Customer;
 
